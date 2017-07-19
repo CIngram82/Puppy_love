@@ -66,12 +66,36 @@ table thead td{
 table tbody td{
   border: 1px solid #1fabe5;
 }
-/*table thead td{
-background-color: #046c97;
-}
 table thead td{
   color: white;
 }
+form {
+  background-color: #dddddd;
+  border-radius: 5px;
+  padding:10px;
+  margin-bottom: 10px;
+}
+form div{
+  margin: 15px;
+}
+.name{
+  background-color: #ff8523;
+  padding: 15px 25px;
+  border-radius: 5px;
+  color: white;
+}
+.name input {
+  height: 25px;
+}
+form > div > label {
+  font-weight: bold;
+}
+textarea{
+  margin: 10px 0px;
+  border: 1px solid #1fabe5;
+width: 100%;
+}
+
 /*
     light gray - ##eee
     gray - #dddddd
