@@ -24,7 +24,15 @@ header {
   padding: 5px 25px;
   border-radius: 5px;
 }
-
+#page_content{
+  margin: 15px;
+}
+h2{
+color: #046c97;
+}
+h3{
+  color: #046c97;
+}
 
 /*
 colors:
