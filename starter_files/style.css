@@ -29,11 +29,17 @@ header {
 }
 h2{
 color: #046c97;
+padding: 10px 0;
 }
 h3{
   color: #046c97;
 }
-
+section p a{
+ color: #1fabe5;
+}
+ul{
+  font-weight: bold;
+}
 /*
 colors:
     light gray - ##eee
