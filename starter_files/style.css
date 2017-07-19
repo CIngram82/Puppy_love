@@ -3,7 +3,7 @@
   line-height - 1.6
 }
 html{
-  background-color: lightgrey;
+background-image: url(img/bg.jpg);
   border: 2px solid #ffd24a;
   margin: 10px 50px;
   padding: 0;
@@ -25,14 +25,14 @@ header {
   border-radius: 5px;
 }
 #page_content{
-  margin: 15px;
+  padding: 15px;
 }
 h2{
-color: #046c97;
+color: #1fabe5;
 padding: 10px 0;
 }
 h3{
-  color: #046c97;
+  color: #1fabe5;
 }
 section p a{
  color: #1fabe5;
@@ -40,8 +40,11 @@ section p a{
 ul{
   font-weight: bold;
 }
+#page_content > section{
+  border-bottom: 2px solid lightgrey;
+
+}
 /*
-colors:
     light gray - ##eee
     gray - #dddddd
     yellow - #ffd24a
