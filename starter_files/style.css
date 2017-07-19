@@ -50,15 +50,27 @@ table img{
  height: 50px;
   width: 50px;
 }
+table{
+  border-collapse: collapse;
+  margin-bottom: 15px;
+}
 table td{
-
   background-color: white;
+  border: 1px solid #046c97;
   padding: 10px;
   margin: 0;
 }
 table thead td{
-  color: white;
   background-color: #1fabe5;
+}
+table tbody td{
+  border: 1px solid #1fabe5;
+}
+/*table thead td{
+background-color: #046c97;
+}
+table thead td{
+  color: white;
 }
 /*
     light gray - ##eee
