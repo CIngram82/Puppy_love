@@ -42,7 +42,24 @@ ul{
 }
 #page_content > section{
   border-bottom: 2px solid lightgrey;
+}
+table{
+  background-color: #1fabe5;
+}
+table img{
+ height: 50px;
+  width: 50px;
+}
+table td{
 
+  background-color: white;
+  padding: 10px;
+  margin: 0;
+}
+table thead td{
+
+  color: white;
+  background-color: #1fabe5;
 }
 /*
     light gray - ##eee
