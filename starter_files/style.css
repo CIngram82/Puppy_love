@@ -8,6 +8,7 @@ html {
   border: 2px solid #ffd24a;
   margin: 15px 50px;
   padding: 0;
+  border-radius: 5px;
 }
 
 body {
@@ -19,7 +20,9 @@ header {
   background-color: #ff8523;
   padding: 20px;
 }
-
+#logo img{
+  margin-bottom: 10px;
+}
 .main_navigation a {
   text-decoration: none;
   font-size: 25px;
