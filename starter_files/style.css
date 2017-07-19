@@ -127,7 +127,9 @@ textarea {
   padding: 10px 15px;
 }
 
-
+textarea{
+  font-size: 18px;
+}
 /*
     light gray - ##eee
     gray - #dddddd
