@@ -2,16 +2,31 @@
   font-family: Helvetica, Arial, sans-serif;
   line-height - 1.6
 }
-
-
+html{
+  background-color: lightgrey;
+  border: 2px solid #ffd24a;
+  margin: 10px 50px;
+  padding: 0;
+}
+body{
+  margin: 0;
+  background-color: white;
+}
+header {
+  background-color: #ff8523;
+  padding: 20px;
+}
+.main_navigation a{
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  border: 1px solid white;
+  padding: 5px 25px;
+  border-radius: 5px;
+}
 
 
 /*
-font info:
-    family - Helvetica, Arial, sans-serif
-    line-height - 1.6
-
-
 colors:
     light gray - ##eee
     gray - #dddddd
